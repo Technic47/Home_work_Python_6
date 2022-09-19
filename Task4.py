@@ -24,7 +24,9 @@ pos = input('Enter positions via space: ').split(' ')
 
 mult = [numbers[int(pos[i])] for i in range(len(pos))]
 print(mult)
+
 calc = 1
 for i in mult:
     calc *= int(i)
+
 print(calc)

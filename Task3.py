@@ -12,4 +12,4 @@ number = int(input('Enter your number: '))
 
 numbers = [round((1 + 1 / i) ** i, 2) for i in range(1, number)]
 
-print('{}, sum is: {}'.format(numbers, sum(numbers)))
+print('{}, sum is: {}'.format(numbers, round(sum(numbers), 2)))
